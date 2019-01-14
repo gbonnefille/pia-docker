@@ -11,6 +11,9 @@ RUN apt-get update \
     curl \
     gnupg \
     apt-transport-https \
+    python \
+    make \
+    g++ \
  && apt-get clean
 
 ENV NODEJS_VERSION 10.13.0
